@@ -29,24 +29,4 @@ public class ReverseNumberGeneric {
         }
         throw new IllegalArgumentException("Unsupported number type.");
     }
-    
-
-    @SuppressWarnings("unchecked")
-    private static <T extends Number> T castNumber(long number, Class<T> clazz) {
-        if (clazz == Integer.class) {
-            return (T) Integer.valueOf((int) number);
-        } else if (clazz == Long.class) {
-            return (T) Long.valueOf(number);
-        } else if (clazz == Byte.class) {
-            return (T) Byte.valueOf((byte) number);
-        } else if (clazz == Short.class) {
-            return (T) Short.valueOf((short) number);
-        } else if (clazz == Float.class) {
-            return (T) Float.valueOf(number);
-        } else if (clazz == Double.class) {
-            return (T) Double.valueOf(number);
-        }
-        throw new IllegalArgumentException("Unsupported number type.");
-    }
 }
-

@@ -3,7 +3,9 @@
  *
  * @param <T> the type of number to be reversed, must be a subclass of Number
  */
-package GenericCreationsFromWorkspace;
+package AlgoAttempts;
+
+import GenericCreationsFromWorkspace.ReverseNumberGeneric;
 
 /**
  * The ReverseNumber class contains a method to reverse an integer.
