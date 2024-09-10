@@ -22,7 +22,6 @@ public class StackAttempt2Impl extends StackAttempt1 {
                 }
             }
         }
-
-        return tempStack.isEmpty();
+        return tempStack.isEmpty(); // if the tempStack is empty, then the stack is balanced
     }
 }

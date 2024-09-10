@@ -1,7 +1,7 @@
-// Check for balanced parentheses using a stack
+package AlgoAttempts;
+
 import java.util.Stack;
-// Helper methods for each opening and closing type of bracket
-// Helper method to check for matching brackets
+
 abstract class StackAttempt1 {
 
     final char openingParenthesis = '(';
