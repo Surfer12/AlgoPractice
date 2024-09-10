@@ -1,4 +1,4 @@
-package StackTasks;
+package AlgoAttempts;
 public class PalindromeCheck {
     /**
      * Checks if the input string is a palindrome.

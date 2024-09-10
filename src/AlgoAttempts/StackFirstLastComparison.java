@@ -1,4 +1,4 @@
-package StackTasks;
+package AlgoAttempts;
 import java.util.Stack;
 
 /**
