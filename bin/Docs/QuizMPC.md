@@ -93,9 +93,9 @@ Which of the following is NOT a benefit of using helper methods in algorithms?
    - **Core Idea:** Find the longest common prefix string amongst an array of strings.
    - **Step 1:** What should you do if the input array is empty?
      - a) Return the first string
-     - b) Return an empty string
+     - b) Return an empty string -- return Optional.empty();
    - **Step 2:** While checking each string, what should you do if the prefix is not found?
-     - a) Stop checking further
+     - a) Stop checking further -- correct
      - b) Shorten the prefix by one character
 
 4. **Algorithm Name: Two Sum (LeetCode 1)**

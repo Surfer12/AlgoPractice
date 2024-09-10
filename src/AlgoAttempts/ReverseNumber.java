@@ -1,3 +1,4 @@
+package AlgoAttempts;
 /**
  * The ReverseNumber class contains a method to reverse an integer.
  */

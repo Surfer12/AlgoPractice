@@ -1,3 +1,4 @@
+package AlgoAttempts;
 /* 3. **Algorithm Name: Longest Common Prefix (LeetCode 14)**
    - **Core Idea:** Find the longest common prefix string amongst an array of strings.
  */
