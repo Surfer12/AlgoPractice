@@ -1,37 +1,3 @@
-### Multiple Choice Question Format
-1. **Algorithm Name: Reversed Number (LeetCode 7)**
-   - **Core Idea:** Determine if an integer reads the same backward as forward.
-   - **Step 1:** What should you do first to reverse the integer?
-     - a) Initialize a variable to store the reversed number - correct
-     - b) Convert the integer to a string - subsequent step if you choose to reverse the number using string manipulation
-
-     **Step 1.5:** How do you extract the last digit of the number? 
-     - a) Use the modulo operator - correct // 1234 % 10 = 4
-     - b) Use the division operator
-     - c) Use the bitwise AND operator
-     - d) Use the bitwise OR operator   
-
-   - **Step 2:** After obtaining the last digit, what is the next step?
-     - a) Add the digit to the reversed number - correct 
-     // show implimentation of this step using 1234 as the input in java 
-     - b) Subtract the digit from the original number 
-```java    
-public class ReverseNumber {
-        public static void main(String[] args) {
-        int originalNumber = 1234;
-        int reversedNumber = 0; // initialize the reversed number to 0
-
-        while (originalNumber != 0) {
-            int lastDigit = originalNumber % 10; // Extract the last digit
-            reversedNumber = reversedNumber * 10 + lastDigit; // Add it to the reversed number
-            originalNumber /= 10; // Remove the last digit from the original number
-        }
-
-        System.out.println("Reversed Number: " + reversedNumber);
-    }
-}
-```
-
 2. **Algorithm Name: Roman to Integer (LeetCode 13)**
    - **Core Idea:** Convert a Roman numeral string to its corresponding integer value.
    - **Step 1:** What should you check for each character in the string?
@@ -40,6 +6,8 @@ public class ReverseNumber {
    - **Step 2:** If the current numeral is less than the next, what should you do?
      - a) Add the current value to the result
      - b) Subtract the current value from the result
+     
+
 
 3. **Algorithm Name: Longest Common Prefix (LeetCode 14)**
    - **Core Idea:** Find the longest common prefix string amongst an array of strings.
