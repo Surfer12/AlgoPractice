@@ -29,6 +29,8 @@ abstract class StackAttempt1 {
         if(a == closingParenthesis) return true;
         if(a == closingBracket) return true;
         if(a == closingBrace) return true;
+        return false;
+    }
 
     void addToStack(Stack<Character> stack, char c) {
         for(Character element : stack){

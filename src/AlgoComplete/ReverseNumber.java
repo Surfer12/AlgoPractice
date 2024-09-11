@@ -3,7 +3,7 @@
  *
  * @param <T> the type of number to be reversed, must be a subclass of Number
  */
-package AlgoAttempts;
+package AlgoComplete;
 
 import GenericCreationsFromWorkspace.ReverseNumberGeneric;
 
